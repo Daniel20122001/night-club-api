@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "email": "downey@mail.dk",
+      "password": "$2a$10$EZ/BnVuNQcWki1piqlVOfOqt.eDOsejHAGKxxfUOfOR55VFNBtLlC",
+      "name": "Robert Downey Jr.",
+      "id": 1
+    }
+  ],
   "events": [
     {
       "id": 1,
@@ -94,9 +102,18 @@
     {
       "id": 1,
       "blogpostId": 3,
+      "userId": 1,
       "name": "Robert Downey Junior",
       "content": "Best club ever!",
       "date": "2022-01-03T16:43:02.002Z"
+    },
+    {
+      "blogpostId": 2,
+      "userId": 1,
+      "name": "Robert Downey Junior",
+      "content": "What an amazing evening!",
+      "date": "2022-01-03T16:43:02.002Z",
+      "id": 2
     }
   ],
   "gallery": [
@@ -242,13 +259,23 @@
   ],
   "reservations": [
     {
-      "id": 1,
       "name": "John Doe",
       "email": "john@doe.com",
-      "table": "1",
-      "guests": "5",
-      "date": "2022-01-03T16:43:02.002Z",
-      "phone": "32122 31234"
+      "table": "3",
+      "guests": "3",
+      "date": "2022-03-15T20:00:00.000Z",
+      "phone": "2342 78986",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Robert Downey Jr",
+      "email": "downey@mail.dk",
+      "table": "3",
+      "guests": "3",
+      "date": "2022-03-15T20:00:00.000Z",
+      "phone": "2342 78986",
+      "id": 3
     }
   ],
   "newsletters": [
